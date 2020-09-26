@@ -8,12 +8,26 @@ Ens connectem a la placa per xarxa des d'un terminal (contrasenya de *root* **12
 
      ssh root@192.168.1.136
 
-Ens obliga a canviar la contrasenya de root i crear un nou usuari. En el meu cas he creat l'usuari jordi, el mateix que faig servir a la meva màquina principal.
+Ens obliga a canviar la contrasenya de *root* i crear un nou usuari. En el meu cas he creat l'usuari *jordi*, el mateix que faig servir a la meva màquina principal.
 
 Actualitzem els paquets
 
      apt update
      apt upgrade
+
+Configurem el sistema amb
+
+    armbian-config
+    
+A *Personal settings -> Timezone* canviem el fus horari
+
+A *Personal settings -> Hostname* canviem el nom de la màquina per *cluster1*
+
+Reiniciem el sistema
+
+    reboot
+    
+
 
 
 
