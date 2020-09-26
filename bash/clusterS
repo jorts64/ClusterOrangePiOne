@@ -1,3 +1,9 @@
 #!/bin/bash
-scp /home/jordi/.ipython/profile_default/security/ipcontroller-engine.json 192.168.1.136:/home/jordi/.ipython/profile_default/security/.
-mpiexec -n 8 -hostfile ~/myhostfile ipengine
+scp /home/jordi/.ipython/profile_default/security/ipcontroller-engine.json 192.168.1.51:/home/jordi/.ipython/profile_default/security/.
+scp /home/jordi/.ipython/profile_default/security/ipcontroller-engine.json 192.168.1.52:/home/jordi/.ipython/profile_default/security/.
+scp /home/jordi/.ipython/profile_default/security/ipcontroller-engine.json 192.168.1.53:/home/jordi/.ipython/profile_default/security/.
+scp /home/jordi/.ipython/profile_default/security/ipcontroller-engine.json 192.168.1.54:/home/jordi/.ipython/profile_default/security/.
+scp /home/jordi/.ipython/profile_default/security/ipcontroller-engine.json 192.168.1.55:/home/jordi/.ipython/profile_default/security/.
+scp /home/jordi/.ipython/profile_default/security/ipcontroller-engine.json 192.168.1.56:/home/jordi/.ipython/profile_default/security/.
+scp /home/jordi/.ipython/profile_default/security/ipcontroller-engine.json 192.168.1.57:/home/jordi/.ipython/profile_default/security/.
+mpiexec -n 32 -hostfile ~/myhostfile ipengine
