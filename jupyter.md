@@ -2,7 +2,7 @@
 
 Aquesta instal·lació l'he comprovada amb Debian 10. és important escollir aquesta distribució per compatibilitat amb el cluster, ja que no dona problemes de comunicació MPI amb Armbian.
 
-Primer instal·lem les biblioteque científiques, després jupyter:
+Primer instal·lem les biblioteques científiques, després jupyter:
 
     sudo apt install python3-pip
     sudo python3 -m pip install --upgrade pip
