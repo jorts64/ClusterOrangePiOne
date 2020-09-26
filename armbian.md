@@ -35,7 +35,7 @@ Reiniciem el sistema
     
 Ens tornem a connectar com a *root* i seguint les instruccions de [https://orangepiweb.es/gpio.php](https://orangepiweb.es/gpio.php) preparem el port GPIO per a python3:
 
-    apt-get install python-dev python-setuptools swig python3-pip python3-wheel 
+    apt-get install python3-dev python3-setuptools swig python3-pip python3-wheel 
     git clone https://github.com/zhaolei/WiringOP.git -b h3
     cd WiringOP
     ./build
@@ -52,7 +52,8 @@ Però el nom dels pins que hem de fer servir amb aquesta llibreria de Python só
 
 ![](img/gpio-40-pins.jpg)
 
-Ja podeu connectar el mòdul de 6 leds als pins senars 27-39 del connector i provar l'exemple [testleds.py](python3/testleds.py)
+Ja podeu connectar el mòdul de 6 leds als pins senars 27-39 del connector i provar l'exemple [testleds.py](python3/testleds.py). Potser us caldrà abans fer una altra vegada reboot.
+
 
 
 
