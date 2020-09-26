@@ -5,7 +5,7 @@ Aquest cluster el farem servir des d'un ordinador amb [jupiter notebook](jupyter
 
 Utilitzem una torre vella de PC amb una font [ATX](img/ATX.jpg). Cada Orange Pi One va en una [safata](openscad/bandeja3p5OrangePiOne.stl) d'unitat 3.5" impressa en 3D dissenyada en [OpenSCAD](openscad/bandeja3p5OrangePiOne.scad) i té 6 leds connectats al seu connector [GPIO](img/OrangePiGpioConnector.png).
 
-Cal fer 3 passos amb cada placa del cluster:
+Cal fer 3 passos amb cada placa del cluster (camboieu el hostname *cluster1* per la placa que esteu treballant):
 
 * Instal·lar armbian [Instruccions](armbian.md)
 * Instal·lar les llibreries per treballar amb Jupyter [Instruccions](pythonlib.md)
