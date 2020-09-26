@@ -48,10 +48,11 @@ Ara podem veure l'estat del GPIO amb
 
     gpio readall
 
-Però el nom dels pins que hem de fer servir amb aquesta llibreria de Python són aquests:
+Però el nom dels pins que hem de fer servir amb aquesta llibreria de Python són aquests que veieu en color verd:
 
 ![](img/gpio-40-pins.jpg)
 
+Ja podeu connectar el mòdul de 6 leds als pins senars 27-39 del connector i provar l'exemple [testleds.py](python3/testleds.py)
 
 
 
