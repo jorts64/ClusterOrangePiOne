@@ -33,7 +33,7 @@ Reiniciem el sistema
 
     reboot
     
-Ens tornem a connectar com a *root* iseguit les instruccions de [https://orangepiweb.es/gpio.php](https://orangepiweb.es/gpio.php) preparem el port GPIO per a python3:
+Ens tornem a connectar com a *root* i seguint les instruccions de [https://orangepiweb.es/gpio.php](https://orangepiweb.es/gpio.php) preparem el port GPIO per a python3:
 
     apt-get install python-dev python-setuptools swig python3-pip python3-wheel 
     git clone https://github.com/zhaolei/WiringOP.git -b h3
