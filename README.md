@@ -8,3 +8,6 @@ Cal fer 3 passos amb cada placa del cluster:
 * Instal·lar armbian [Instruccions](armbian.md)
 * Instal·lar les llibreries per treballar amb Jupyter [Instruccions](jupyter.md)
 * Instal·lar MPI [Instruccions](mpi4py.md)
+
+També teniu disponible un [soport](openscad/ledsCluster.stl) pels 7 mòduls de leds dissenyat amb [openSCAD](openscad/ledsCluster.scad)
+
