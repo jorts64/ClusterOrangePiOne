@@ -23,23 +23,33 @@ A *Personal settings -> Timezone* canviem el fus horari
 
 A *Personal settings -> Hostname* canviem el nom de la màquina per *cluster1*
 
+A *System -> Hardware* activem el bus GPIO **w1-gpio**
+
+Instal·lem *mc*
+
+    apt install mc
+
 Reiniciem el sistema
 
     reboot
     
-Ens tornem a connectar com a *root* iseguit les instruccions de [https://github.com/lanefu/WiringPi-Python-OP](https://github.com/lanefu/WiringPi-Python-OP) habilitem el port GPIO per a python:
+Ens tornem a connectar com a *root* iseguit les instruccions de [https://orangepiweb.es/gpio.php](https://orangepiweb.es/gpio.php) preparem el port GPIO per a python3:
 
-    git clone --recursive https://github.com/lanefu/WiringPi-Python-OP.git
-    cd WiringPi-Python-OP
-    apt-get install python-dev python-setuptools swig
-    cd WiringPi
+    apt-get install python-dev python-setuptools swig python3-pip python3-wheel 
+    git clone https://github.com/zhaolei/WiringOP.git -b h3
+    cd WiringOP
     ./build
+    git clone https://github.com/duxingkei33/orangepi_PC_gpio_pyH3.git
+    cd orangepi_PC_gpio_pyH3/
+    python3 setup.py install
     
 Ara podem veure l'estat del GPIO amb 
 
     gpio readall
 
+Però el nom dels pins que hem de fer servir amb aquesta llibreria de Python són aquests:
 
+![](gpio-40-pins.jpg)
 
 
 
