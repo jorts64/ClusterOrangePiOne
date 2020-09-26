@@ -39,6 +39,7 @@ Ens tornem a connectar com a *root* iseguit les instruccions de [https://orangep
     git clone https://github.com/zhaolei/WiringOP.git -b h3
     cd WiringOP
     ./build
+    cd ..
     git clone https://github.com/duxingkei33/orangepi_PC_gpio_pyH3.git
     cd orangepi_PC_gpio_pyH3/
     python3 setup.py install
@@ -49,7 +50,7 @@ Ara podem veure l'estat del GPIO amb
 
 Però el nom dels pins que hem de fer servir amb aquesta llibreria de Python són aquests:
 
-![](gpio-40-pins.jpg)
+![](img/gpio-40-pins.jpg)
 
 
 
