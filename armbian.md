@@ -15,6 +15,10 @@ Actualitzem els paquets
      apt update
      apt upgrade
 
+Instal·lem *mc*
+
+    apt install mc
+
 Configurem el sistema amb
 
     armbian-config
@@ -24,10 +28,6 @@ A *Personal settings -> Timezone* canviem el fus horari
 A *Personal settings -> Hostname* canviem el nom de la màquina per *cluster1*
 
 A *System -> Hardware* activem el bus GPIO **w1-gpio**
-
-Instal·lem *mc*
-
-    apt install mc
 
 Reiniciem el sistema
 
