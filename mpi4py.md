@@ -21,15 +21,15 @@ També instal·larem openmpi-bin python3-mpi4py a les targetes Orange Pi One del
 
     ssh-keygen
     cd .ssh
-    cp id_rsa.pub server
-    scp 192.168.1.10:/home/jordi/.ssh/master .
+    cp id_rsa.pub  cluster1
+    scp 192.168.1.60:/home/jordi/.ssh/master .
     cat master>>authorized_keys
 
 A l'ordinador principal tambñe haurem de copiar les claus públiques de les targetes Orange Pi One i afegir-les a les autoritzades:
 
-    En el cliente copiar las claves de los servidores en ~/.ssh y añadir a authorized_keys :
+En el meu cas la tarjeta Orange Pi One té la IP 192.168.1.136:
 
-    scp 192.168.1.60:/home/jordi/.ssh/server ./cluster1
+    scp 192.168.1.136:/home/jordi/.ssh/cluster1 .
     cat cluster1>>authorized_keys
 
 
