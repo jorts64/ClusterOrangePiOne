@@ -27,7 +27,17 @@ Reiniciem el sistema
 
     reboot
     
+Ens tornem a connectar com a *root* iseguit les instruccions de [https://github.com/lanefu/WiringPi-Python-OP](https://github.com/lanefu/WiringPi-Python-OP) habilitem el port GPIO per a python:
 
+    git clone --recursive https://github.com/lanefu/WiringPi-Python-OP.git
+    cd WiringPi-Python-OP
+    apt-get install python-dev python-setuptools swig
+    cd WiringPi
+    ./build
+    
+Ara podem veure l'estat del GPIO amb 
+
+    gpio readall
 
 
 
