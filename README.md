@@ -17,3 +17,20 @@ També teniu disponible un [soport](openscad/ledsCluster.stl) pels 7 mòduls de 
 
 Podeu veure aquesta [galeria d'imatges](muntatge.md) del procés de muntatge
 
+Una vegada tot a punt, he obert tres terminals a l¡ordinador principal:
+
+1r terminal: iniciem controlador del cluster
+
+    ./clusterM
+
+2n terminal: iniciem serveis computació paral·lela a les targetes Orange Pi One
+
+    ./clusterS
+
+3r terminal: iniciem Jupyter notebook
+
+    cd ~/jupyter
+    jupyter notebook
+
+Jo he provat un [càlcul de pi pel mètode de Montecarlo](juipyter/parallel01.ipynb)    
+Ha anat força bé: 320 millions de assatjos en 80s no es veu cada dia!
