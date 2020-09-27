@@ -13,3 +13,7 @@ Cal fer 3 passos amb cada placa del cluster (canvieu el hostname *cluster1* per 
 
 També teniu disponible un [soport](openscad/ledsCluster.stl) pels 7 mòduls de leds dissenyat amb [openSCAD](openscad/ledsCluster.scad)
 
+# Muntatge del conjunt
+
+Podeu veure aquesta [galeria d'imatges](munmtatge.md) del procés de muntatge
+
