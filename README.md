@@ -40,5 +40,5 @@ Una vegada tot a punt, he obert tres terminals a l'ordinador principal:
     cd ~/jupyter
     jupyter notebook
 
-Jo he provat un [càlcul de pi pel mètode de Montecarlo](juipyter/parallel01.ipynb)    
+Jo he provat un [càlcul de pi pel mètode de Montecarlo](jupyter/parallel01.ipynb)    
 Ha anat força bé: 320 millions de assatjos en 80s no es veu cada dia!
