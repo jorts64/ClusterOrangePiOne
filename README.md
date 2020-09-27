@@ -15,5 +15,5 @@ També teniu disponible un [soport](openscad/ledsCluster.stl) pels 7 mòduls de 
 
 # Muntatge del conjunt
 
-Podeu veure aquesta [galeria d'imatges](munmtatge.md) del procés de muntatge
+Podeu veure aquesta [galeria d'imatges](muntatge.md) del procés de muntatge
 

@@ -1,6 +1,6 @@
 # Muntatge del cluster
 
-He fet servir una bella torre de PC amb font ATX. He afegit alguns connectors USB, sempre es necessiten!
+He fet servir una bella torre de PC amb font ATX. He afegit alguns connectors USB, sempre es necessiten! ( i el de color negre va a 5VSB, que sempre funciona fins-i-tot amb la font en standby)
 
 ![](img/20200927_083345.jpg)
 
