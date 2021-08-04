@@ -42,3 +42,15 @@ Una vegada tot a punt, he obert tres terminals a l'ordinador principal:
 
 Jo he provat un [càlcul de pi pel mètode de Montecarlo](jupyter/parallel01.ipynb)    
 Ha anat força bé: 320 millions de assatjos en 80s no es veu cada dia!
+
+# Actualització agost 2021
+
+Aquests dies de vacances he aprofitat per tornar al meu clúster d'orange pi. He afegit sortides de 5V i 12 V amb amperímetre, ventiladors, monitors de càrrega i de temperatura:
+
+![](img/clusterTemp.jpeg)
+
+## Monitors de càrrega
+El programa [loadled.py](python3/loadled.py) es crida cada minut per [crontab](crontab/loadled) i actualitza els leds segons la càrrega de la placa orange pi.
+
+## Monitor de temperatura
+El programa [sendtemp](usrlocalbin/sendtemp) es crida cada minut per [crontab](crontab/sendtemp) i envia les dades a una placa NodeMCU ESP8266 programada amb codi [arduino](arduino/ClusterTemp.ino) amb una interfície basada en dígits de 7 segments, leds bicolors i polsadors.
