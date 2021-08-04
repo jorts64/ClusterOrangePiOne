@@ -1,0 +1,5 @@
+#!/bin/bash
+tactual=`cat /sys/devices/virtual/thermal/thermal_zone0/temp`
+val1=`expr $tactual + 500`
+val2=`expr $val1 / 1000`
+wget -O/dev/null -q http://192.168.1.50/changeT?maq=0\&temp=$val2
